@@ -44,7 +44,7 @@ async def check_and_alert(context):
 
 # Define the start command handler
 async def start(update, context):
-    await update.message.reply_text("Bot started! You will receive updates every minute.")
+    await update.message.reply_text("Bot started!!! You will receive updates every minute.")
 
 def main():
     # Initialize the application with your bot's token
